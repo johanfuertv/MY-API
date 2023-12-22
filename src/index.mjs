@@ -5,6 +5,7 @@ import apiRouter from "./server/index.mjs"; // Cambio aquí
 const app = express();
 import cors from "cors"
 //import  errorLogs from "./middleware/error.hendler.js"
+app.use(cors());
 const port = 3000;
 app.use(express.json());
 
